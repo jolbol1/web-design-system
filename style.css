@@ -1,0 +1,122 @@
+* {
+    font-family: monospace, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    text-align: center;
+    font-size: 120%;
+}
+
+
+
+
+
+
+
+/* Colors */
+
+.colors h1 {
+    text-decoration: underline;
+}
+
+.colors {
+    border: 1px dotted white;
+    width: 60%;
+    text-align: center;
+    margin: 0px auto;
+    overflow: scroll;
+
+}
+
+#line1, #line2, #white {
+    display: inline-block;
+    height: auto;
+    min-width: 960px;
+}
+
+.colors div {
+    min-width: 120px;
+    height: 120px;
+    display: table-cell;
+    vertical-align: top;
+    font-size: 100%;
+}
+
+#navy {
+    background-color: #001f3f;
+
+}
+
+#blue {
+    background-color: #0074D9;
+}
+
+#aqua {
+    background-color: #7FDBFF;
+}
+
+#teal {
+    background-color: #39CCCC;
+}
+
+#olive {
+    background-color: #3D9970;
+}
+
+#green {
+    background-color: #2ECC40;
+}
+
+#lime {
+    background-color: #01FF70;
+}
+
+#yellow {
+    background-color: #FFDC00;
+}
+
+#orange {
+    background-color: #FF851B;
+}
+
+#red {
+    background-color: #FF4136;
+}
+
+#maroon {
+    background-color: #85144b;
+}
+
+#fuchsia {
+    background-color: #F012BE;
+}
+
+#purple {
+    background-color: #B10DC9;
+}
+
+#black {
+    background-color: #111111;
+}
+
+#gray {
+    background-color: #AAAAAA;
+}
+
+#silver {
+    background-color: #DDDDDD;
+    color: black
+}
+
+#white {
+    background-color: #FFFFFF;
+    color: black;
+    margin-bottom: 70px;
+
+}
