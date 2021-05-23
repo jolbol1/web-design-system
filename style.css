@@ -73,6 +73,7 @@ section {
     max-width: 40%;
     height: 250px;
     vertical-align: top;
+    overflow: scroll;
 
 }
 
