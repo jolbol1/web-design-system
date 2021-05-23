@@ -1,3 +1,6 @@
+## Usage
+This page is hosted by GitHub [here](https://jolbol1.github.io/web-design-system/).
+
 ## Project
 This project is part of the codecademy full-stack developmenty course. It utilises HTML and CSS to create a refrence site. I have added the prompt below.
 
