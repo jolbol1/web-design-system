@@ -23,6 +23,7 @@ section {
     text-align: center;
     margin: 20px auto;
     padding-bottom: 70px;
+    overflow: scroll;
 
 }
 /* Button */
@@ -120,7 +121,6 @@ section {
     display: table-cell;
     vertical-align: top;
     font-size: 100%;
-    overflow: scroll;
 }
 
 #navy {
