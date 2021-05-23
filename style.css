@@ -25,6 +25,41 @@ section {
     padding-bottom: 70px;
 
 }
+/* Button */
+.material {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    padding: 0 16px;
+    min-width: 64px;
+    height: 36px;
+    vertical-align: middle;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    color: #7FDBFF;
+    background-color: #001f3f;
+}
+
+.material:hover,
+.material:focus {
+    background-color: #0074D9;
+}
+
+.material:hover::before {
+    opacity: 0.08;
+}
+
+.material:focus::before {
+    opacity: 0.24;
+}
+
+.material:hover:focus::before {
+    opacity: 0.3;
+}
+
+
 
 /* Fonts */
 .fonts div {
