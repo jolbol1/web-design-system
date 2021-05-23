@@ -120,6 +120,7 @@ section {
     display: table-cell;
     vertical-align: top;
     font-size: 100%;
+    overflow: scroll;
 }
 
 #navy {
