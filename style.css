@@ -13,26 +13,65 @@ header {
     font-size: 120%;
 }
 
-
-
-
-
-
-
-/* Colors */
-
-.colors h1 {
+h1 {
     text-decoration: underline;
 }
 
-.colors {
+section {
     border: 1px dotted white;
     width: 60%;
     text-align: center;
-    margin: 0px auto;
-    overflow: scroll;
+    margin: 20px auto;
+    padding-bottom: 70px;
 
 }
+
+/* Fonts */
+.fonts div {
+    border: 1px solid white;
+    display: inline-block;
+    background-color: #001f3f;
+    margin: 10px;
+    padding: 20px;
+    min-width: 40%;
+    max-width: 40%;
+    height: 250px;
+    vertical-align: top;
+
+}
+
+.roboto p, .roboto h2 {
+    font-family: 'Roboto', sans-serif;}
+
+.raleway p, .raleway h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.bebas p, .bebas h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.abril p , .abril h2 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.arial p , .arial h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace p, .monospace h2 {
+    font-family: monospace;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Colors */
 
 #line1, #line2, #white {
     display: inline-block;
@@ -117,6 +156,4 @@ header {
 #white {
     background-color: #FFFFFF;
     color: black;
-    margin-bottom: 70px;
-
 }
